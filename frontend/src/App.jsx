@@ -95,7 +95,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        'https://dental-xray-app-production.up.railway.app/upload',
+        'https://dental-xray-app-production.up.railway.app/upload-and-analyze',
         formData,
         {
           headers: {
