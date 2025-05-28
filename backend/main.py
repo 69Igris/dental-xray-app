@@ -309,4 +309,4 @@ if __name__ == "__main__":
     import uvicorn
     print("Starting Dental X-ray Analysis API...")
     print(f"Gemini AI: {'Enabled' if GEMINI_API_KEY else 'Disabled (using basic reports)'}")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8080)
