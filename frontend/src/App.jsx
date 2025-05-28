@@ -41,7 +41,6 @@ function App() {
     canvas.width = imageElement.naturalWidth;
     canvas.height = imageElement.naturalHeight;
     
-    // Draw the image
     ctx.drawImage(imageElement, 0, 0);
     
     // Draw bounding boxes
