@@ -10,8 +10,5 @@ COPY . .
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
-ENV PORT=8080
 
-EXPOSE ${PORT}
-
-CMD ["python", "main.py"]
+CMD uvicorn main:app
